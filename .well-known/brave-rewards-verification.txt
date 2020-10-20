@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: stephenzazueta.com
+Token: 9415259b17e9ada6d41470f77a7eac46897997a24328dc9f0f5104820bf25d07
