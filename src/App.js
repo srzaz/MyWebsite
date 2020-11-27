@@ -10,13 +10,19 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Contract from './components/Contract.jsx';
 
+
+
+
 class App extends Component {
 
-
-
+  
   render() {
+    
+
     return (
       <div className="App">
+        
+        
         <Router>
           <Navigation />
           <Switch>
