@@ -9,15 +9,16 @@ class Project extends Component {
 
 
         return (
-            <div class="project-card">
-                
-                <div>
-                    <h3>{title}</h3>
-                    <img src={image} alt='profile' style={{ width: 200, height: 120 }} />
-                    <p>{description}</p>
-                    <a href={link}>{link}</a>
-                </div>
-                
+            <div class="project-card" style={{ width: 250, height: 200 }}>
+                <a href={link} style={{ textDecoration: 'none', color: 'inherit' }} >
+                    <div>
+
+                        <h3>{title}</h3>
+                        <img src={image} alt='profile' style={{ width: 200, height: 150 }} />
+                        <p>{description}</p>
+
+                    </div>
+                </a>
             </div>
         )
     }
